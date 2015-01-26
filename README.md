@@ -6,7 +6,7 @@ Hello, I have made this tutorial for my team during a school project. This is th
 
 The training contains a deep course to understand how to use git from basic commands to a more complex usage. There are two practical works, there could be more. This particular repo is made to be forked to understand several concepts not really easy to understand only on a local repo.
 
-See you in the Wiki ! (https://github.com/etiennebatise/Git-Training/wiki)[https://github.com/etiennebatise/Git-Training/wiki]
+See you in the Wiki ! [https://github.com/etiennebatise/Git-Training/wiki](https://github.com/etiennebatise/Git-Training/wiki)
 
 ## Français
 
@@ -14,4 +14,4 @@ Bonjour, j'ai écris ce tutoriel / entrainement pour que mon équipe découvre G
 
 Cet entrainement contient un cours qui se concentre au début sur les commandes de base pour finir sur une utilisation plus avancée de Git. Il y a 2 travaux pratiques, il pourrait y en avoir plus. Ce dépôt particulier est fait pour être "forké" afin de mieux comprendre plusieurs concepts qui ne sont pas simpl à comprendre sur un simple dépôt local.
 
-Rendez vous sur le wiki ! (https://github.com/etiennebatise/Git-Training/wiki)[https://github.com/etiennebatise/Git-Training/wiki]
+Rendez vous sur le wiki ! [https://github.com/etiennebatise/Git-Training/wiki](https://github.com/etiennebatise/Git-Training/wiki)
