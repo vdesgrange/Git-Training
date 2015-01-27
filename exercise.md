@@ -5,7 +5,7 @@
 Le but de ce TP va être dans une première partie de découvrir l'interface de GitHub (le site de gestion de projet open source le plus populaire), afin de récupérer le TP. Dans une seconde partie nous effectuerons plusieurs commandes afin de se familiariser avec Git.
 
 ## Première Partie
-Tout d'abord, il faut se rendre à l'adresse [github.com/etiennebatise/Travail-Pratique-Avec-Git](http://github.com/etiennebatise/Travail-Pratique-Avec-Git). Si vous n'avez pas de compte sur GitHub, créez votre compte utilisateur puis revenez sur la page indiquée et cliquez sur le bouton **Fork**. Cela va copier entièrement ce dépot et le mettre dans votre liste de dépôt, ainsi vous pourrez effectuer toutes les modifications voulues sans que le propriétaire initiale ne soit embêté. L'opération va prendre quelques secondes.
+Tout d'abord, il faut se rendre à l'adresse [github.com/etiennebatise/Git-Training](http://github.com/etiennebatise/Git-Training). Si vous n'avez pas de compte sur GitHub, créez votre compte utilisateur puis revenez sur la page indiquée et cliquez sur le bouton **Fork**. Cela va copier entièrement ce dépot et le mettre dans votre liste de dépôt, ainsi vous pourrez effectuer toutes les modifications voulues sans que le propriétaire initiale ne soit embêté. L'opération va prendre quelques secondes.
 
 Une fois le _fork_ terminée, retournez sur votre page personnelle et cliquez sur le dépot et copiez l'URL. 
 
