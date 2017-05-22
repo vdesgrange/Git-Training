@@ -50,7 +50,6 @@ git config (--global) user.email <email utilisateur>
 git config (--global) color.ui true
 ```
 
-
 ### Suivi des fichiers
 Lorsqu'on crée un fichier dans le code source, il n'est pas automatiquement suivi. Il faut dire à git de suivre ce fichier, cela signifie qu'on l'ajoute au dépôt :
 ```
@@ -324,7 +323,48 @@ git add . (On redit à Git de suivre les bon fichiers)
 git commit -m "Un nouveau message"
 ```
 
+### Customisation
+
+* Suivi des logs amélioré
+N'utilisez plus `git log`, utilisez `git lg` :
+
+```
+git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit" 
+```
+
+* Configuration du message de commit
+**Commandes :**
+```
+echo 'le message de commit perso >> commit.template
+git config [--global] commit.template /path/to/the/template/file
+```
+**Message de commmit type :**
+```
+# <type> (<scope>) : <subject>
+#
+# <body>
+#
+# <footer>
+
+# type : Quoi ?
+#    - feat (fonctionnalités)
+#    - fix (resolution bug)
+#    - test
+#    - docs
+#    - refactor (changement)
+#    - style (changement de format de fichier ou de convention de texte)
+#    - chore (externes au projet, config etc..
+
+# scope : Où ?
+
+# body : Comment ? Contexte et détails
+
+# footer : Lien(s) vers un ticket par exemple
+
+# 
+```
+
 ### Conclusion
-Je vous invite fortement à prendre le temps de lire les pages du manuel pour comprendre mieux le fonctionnement de chaque commande, de trouver les options qui pourront vous simplifier la vie. 
+Je vous invite fortement à prendre le temps de lire les pages du manuel pour comprendre mieux le fonctionnement de chaque commande, de trouver les options qui pourront vous simplifier la vie.
 
 Enfin pour comprendre les différentes étapes que suivent les fichiers avec Git je vous invite également à lire cette page web : [http://stackoverflow.com/questions/3689838/difference-between-head-working-tree-index-in-git](http://stackoverflow.com/questions/3689838/difference-between-head-working-tree-index-in-git)
